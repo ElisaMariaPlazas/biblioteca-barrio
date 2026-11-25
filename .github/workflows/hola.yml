@@ -1,0 +1,10 @@
+name: Hola
+
+on:
+workflow_dispatch:
+jobs:
+saludo:
+runs-on: ubuntu-latest
+steps:
+- run: echo "Hola desde una máquina de GitHub"
+- run: uname -a
